@@ -64,3 +64,33 @@ body {
   font-size: 15px;
   text-align: center;
 }
+@media only screen and (max-width: 600px) {
+  .container {
+    top: 10%; /* Reset top position */
+    left: auto;
+    width: 300px; /* Reset left position */
+    transform: none;
+    height: 340px;
+    padding: 20px;
+  }
+  .answer {
+    flex-direction: column;
+    width: 100%;
+  }
+  .wrong {
+    margin-top: 10px;
+    text-align: center;
+    margin-bottom: 5px;
+  }
+  #guess {
+    margin-left: 0px;
+    position: relative;
+  }
+  #again {
+    position: relative;
+    margin-left: 0px;
+  }
+  .hint {
+    width: 300px;
+  }
+}
