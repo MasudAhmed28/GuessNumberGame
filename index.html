@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess the Number</title>
+</head>
+<link href="style.css" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet">
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h2>Guess the number between 1 to 100</h2>
+        </div>
+        <div class="answer">
+            <input type="text" id="num">
+            <button id="guess">guess</button>
+            <button id="again" style="display:none;">Start Again</button>
+        </div>
+        <div class="lower">
+            <p class="wrong"></p>
+            <p class="guesses">No. of Guess:<span class="count"></span> </p>
+        </div>
+        <div class="hint">
+            <i class="fa-solid fa-lightbulb" style="font-size:16px;">
+
+            </i>
+            <p class="ltr"></p>
+        </div>
+
+    </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
